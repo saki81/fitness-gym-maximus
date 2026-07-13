@@ -19,7 +19,7 @@ export  function RelatedPosts ( {posts}: RelatedPostsProps) {
     return (
         <aside className="mt-0 p-1">
           <h2 className="text-2xl font-bold mb-4">Povezani clanci</h2> 
-           <div className="grid md:grid-cols-1 lg:grid-cols-1">
+           <div className="grid md:grid-cols-1 lg:grid-cols-1 mx-auto justify-center">
              {posts.map((post) => (
                 <Card key={post.slug} className="pt-0 group hover:shadow-lg transition-shadow mb-4">
                   <Link href={`/blog/${post.slug}`}>
@@ -27,11 +27,11 @@ export  function RelatedPosts ( {posts}: RelatedPostsProps) {
                      <Image
                        src={getImageUrl(post.image.src)}
                        alt={post.image.alt}
-                       width={300}
-                       height={80}
-                       className="rounded-lg object-cover"/>
+                       width={320}
+                       height={60}
+                       className="rounded-lg object-cover w-full h-full"/>
                     </div>
-                    <div className="p-3 font-semibold">
+                    <div className="p-4 font-semibold">
                        {post.title}
                     </div>
                     
