@@ -18,7 +18,7 @@ export  function RelatedPosts ( {posts}: RelatedPostsProps) {
 
     return (
         <aside className="mt-0 p-1">
-          <h2 className="text-2xl font-bold mb-4">Povezani clanci</h2> 
+          <h2 className="text-2xl font-bold mb-4">Povezani članci</h2> 
            <div className="grid md:grid-cols-1 lg:grid-cols-1 mx-auto justify-center">
              {posts.map((post) => (
                 <Card key={post.slug} className="pt-0 group hover:shadow-lg transition-shadow mb-4">

@@ -1,7 +1,5 @@
 import Image from "next/image";
 import { getImageUrl } from "@/lib/imagekit";
-import { Calendar, Clock } from "lucide-react";
-import { calculateReadingTime, formatDate } from "@/lib/utils";
 import  { Post } from "@/lib/posts";
 
 interface PostHeaderProps {
@@ -19,7 +17,7 @@ export function PostHeader ( {post}: PostHeaderProps ) {
             alt={post?.image.alt}
             width={1200}
             height={300}
-            className="w-full md:h-[300] object-cover rounded-lg sm:h-[130] max-w-full"/>
+            className="w-full h-[200] object-cover rounded-lg sm:h-[380] max-w-full"/>
          </div>  
        </div>
     )

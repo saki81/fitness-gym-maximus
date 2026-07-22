@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import Image from "next/image";
 import { getImageUrl } from "@/lib/imagekit";
 import Link from "next/link";
+import { Calendar, Clock } from "lucide-react"
 import { calculateReadingTime, formatDate } from "@/lib/utils";
 
 
@@ -47,7 +48,7 @@ export function BlogCard ({posts = []}: BlogCardProps) {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
            {posts.map((post) => (
-              <Card key={post.slug} className="w-full h-full  relative overflow-hidden">
+              <Card key={post.slug}>
                 <Link href={`/blog/${post.slug}`}>
                  <div className="relative h-48 overflow-hidden">
                     <Image 
@@ -67,10 +68,17 @@ export function BlogCard ({posts = []}: BlogCardProps) {
                  </div>
                  <CardHeader className="p-6">
                    <div className="flex items-center justify-between mb-3">
-                     <p className="text-sm  text-muted-foreground">{formatDate(post.date)}</p>
-                     <span className="text-sm text-muted-foreground">{calculateReadingTime(post.content)} min citanja</span>
+                    <div className="flex items-center ">
+                        <Calendar size={14} className="mr-1"/>
+                        <p className="text-sm  text-muted-foreground">{formatDate(post.date)}</p>
+                    </div>
+                    <div className="flex items-center">
+                         <Clock size={14} className="mr-1"/>
+                         <span className="text-sm text-muted-foreground">{calculateReadingTime(post.content)} min citanja</span>
+                    </div>
+                    
                    </div>
-                   <h3 className="text-xl font-bold mb-3 group-hover:text-[#FFA52C] transition-colors text-foreground">
+                   <h3 className="text-xl font-bold mb-3 hover:text-accent transition-colors text-foreground">
                         {post.title}
                    </h3>
 

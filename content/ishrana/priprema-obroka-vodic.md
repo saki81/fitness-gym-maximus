@@ -26,8 +26,6 @@ published: true
 relatedPosts: ["zdrava-ishrana-za-sportiste", "brzi-recepti"]
 ---
 
-# Meal Prep - Vodič za pripremu obroka unapred
-
 Meal prep je revolucionarna strategija koja može transformisati vaš pristup ishrani. Umesto svakodnevnog razmišljanja o tome šta da jedete, možete unapred isplanirati i pripremiti obroke za celu nedelju.
 
 ## Zašto je meal prep važan?

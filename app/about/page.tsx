@@ -11,7 +11,7 @@ export default function AboutPage () {
          <section className="py-12 md:py-16 container mx-auto">
           <div className="mt-10 pr-2 pl-2 max-w-4xl mx-auto text-center md:tracking-wider font-medium">
             <p className="text-foreground">
-              Fitnes centar Maximus započeo je sa radom u septembru 2010. godine s ciljem da svojim članovima pruži moderno, ugodno i motivirajuće okruženje za trening. Tokom godina izgradili smo zajednicu ljudi koji dijele istu želju – zdraviji, aktivniji i kvalitetniji način života.
+              Fitnes centar Maximus započeo je sa radom u septembru 2011. godine s ciljem da svojim članovima pruži moderno, ugodno i motivirajuće okruženje za trening. Tokom godina izgradili smo zajednicu ljudi koji dijele istu želju – zdraviji, aktivniji i kvalitetniji način života.
             </p>
           </div>
           <div className="mt-10 pr-2 pl-2 max-w-4xl mx-auto text-center md:tracking-wider font-medium">

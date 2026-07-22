@@ -26,7 +26,6 @@ published: true
 relatedPosts: ["zdrava-ishrana-za-sportiste", "suplementi-za-izdrzljivost"]
 ---
 
-# Hidratacija tokom treninga - Zašto je voda ključna za performanse
 
 Voda čini 60% naše telesne težine i učestvuje u svim vitalnim funkcijama organizma. Tokom fizičke aktivnosti, pravilna hidratacija postaje još važnija za održavanje performansi i sprečavanje zdravstvenih problema.
 

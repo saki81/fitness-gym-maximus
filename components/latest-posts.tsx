@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { formatDate } from "@/lib/utils"
+import { BlogCard } from "./blog-card"
 import { getLatestPosts, type Post } from "@/lib/posts"
 import { Button } from "./ui/button"
 import { getImageUrl } from "@/lib/imagekit"
@@ -31,41 +32,10 @@ export function LatestPosts () {
               >
                 POGLEDAJTE SVE POSTOVE
               </Button>
-            </Link>
+            </Link> 
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            {recentPosts.map((post, index) => (
-              <Link
-                key={index} 
-                href={`/blog/${post.slug}`}
-                className="group bg-background rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition-all transform hover:scale-105"
-              >
-                <div className="relative h-48 overflow-hidden">
-                   <Image
-                    src={ getImageUrl(post.image.src) }
-                    alt={post.title}
-                    width={340}
-                    height={300}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
-                  
-                  <div className="absolute top-4 left-4">
-                    <span
-                      className="px-3 py-1 text-sm font-semibold rounded-full text-accent-foreground bg-accent shadow-lg"
-                    >
-                      {post.category}
-                    </span>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <p className="text-sm mb-2 text-muted-foreground">{formatDate(post.date)}</p>
-                  <h3 className="text-xl font-bold mb-2 group-hover:text-[#FFA52C] transition-colors text-foreground">
-                    {post.title}
-                  </h3>
-                  <p className="text-sm text-foreground">{post.excerpt}</p>
-                </div>
-              </Link>
-            ))}
-          </div>
+           <BlogCard posts={recentPosts} />
+          
         </div>
       </section>
     )
