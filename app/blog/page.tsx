@@ -39,12 +39,7 @@ export default async function blogPage ({searchParams}: BlogPageProps) {
       <>
       <PageHeroBanner title="Blog" description="Otkrijte najnovije članke o fitness-u, ishrani i suplementaciji"/>
         <section className="container mx-auto px-4 py-12 xl:w-6xl">
-        {/*  <div className="text-center mt-12">
-            <h1 className="text-4xl font-bold mb-8">Blog</h1>
-            <p className="text-xl text-muted-foreground mb-8">Otkrijte najnovije članke o fitnes-u, ishrani i suplementaciji</p>
-          </div> */}
-          
-          
+      
           <CategoryFilter currentCategory={category}/>
           {filteredPost.length === 0 
           ? <div className="flex items-center justify-center">
