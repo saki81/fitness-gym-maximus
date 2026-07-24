@@ -56,7 +56,7 @@ export function BlogCard ({posts = []}: BlogCardProps) {
                       alt={post.image.alt}
                       width={340}
                       height={300}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+                      className="w-full h-full rounded-t-xl object-cover group-hover:scale-110 transition-transform duration-500"/>
 
                        <div className="absolute top-4 left-4">
                     <span

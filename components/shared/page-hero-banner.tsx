@@ -33,7 +33,7 @@ export function PageHeroBanner({ title, description }: PageHeroBannerProps) {
           <h1 className="text-4xl md:text-5xl font-bold tracking-wide mb-6">
              { title }
           </h1>
-          <h3 className="">{description}</h3>
+          <h3 className="md:text-xl font-medium tracking-wide">{description}</h3>
         </div>
       </div>
     </section>

@@ -4,6 +4,7 @@ import { CategoryFilter } from "@/components/category-filter";
 import { BlogCard } from "@/components/blog-card";
 import { getAllPosts } from "@/lib/posts";
 import type  { Metadata } from "next";
+import { PageHeroBanner } from "@/components/shared/page-hero-banner";
 
 
 export const metadata: Metadata = {
@@ -35,11 +36,15 @@ export default async function blogPage ({searchParams}: BlogPageProps) {
     const paginatedPosts = filteredPost.slice(startIndex, startIndex + postPerPage)
 
     return (
+      <>
+      <PageHeroBanner title="Blog" description="Otkrijte najnovije članke o fitness-u, ishrani i suplementaciji"/>
         <section className="container mx-auto px-4 py-12 xl:w-6xl">
-          <div className="text-center mt-12">
+        {/*  <div className="text-center mt-12">
             <h1 className="text-4xl font-bold mb-8">Blog</h1>
             <p className="text-xl text-muted-foreground mb-8">Otkrijte najnovije članke o fitnes-u, ishrani i suplementaciji</p>
-          </div>
+          </div> */}
+          
+          
           <CategoryFilter currentCategory={category}/>
           {filteredPost.length === 0 
           ? <div className="flex items-center justify-center">
@@ -55,6 +60,7 @@ export default async function blogPage ({searchParams}: BlogPageProps) {
              totalPage={totalPage}
              />
         </section>
+        </>
     )
 
 }
