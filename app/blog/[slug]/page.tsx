@@ -69,10 +69,10 @@ export function generateStaticParams () {
              <div className="text-3xl font-bold mt-10">{post.title}</div>
               <div className="pt-4 pb-10 flex">
                 <div className="flex">                
-                  <Calendar className="mr-2"/> {formatDate(post.date)}  
+                  <Calendar className="mr-2 text-accent"/> {formatDate(post.date)}  
               </div>
               <div className="flex ml-6">  
-                  <Clock className="mr-2"/> {calculateReadingTime(post.content)} min čitanja  
+                  <Clock className="mr-2 text-accent"/> {calculateReadingTime(post.content)} min čitanja  
               </div> 
             </div>
              <div className="lg:flex pt-4">

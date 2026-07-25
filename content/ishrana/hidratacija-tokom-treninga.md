@@ -4,13 +4,6 @@ date: "2024-01-05"
 category: "ishrana"
 excerpt: "Otkrijte koliko je važna pravilna hidratacija za sportske performanse. Naučite kada, koliko i šta da pijete pre, tokom i posle treninga."
 tags: ["hidratacija", "voda", "elektroliti", "performanse"]
-author: 
-  name: "Dr. Stefan Jovanović"
-  bio: "Sportski lekar i ekspert za hidrataciju sportista"
-  avatar: "https://ik.imagekit.io/fitnessblog/authors/stefan-jovanovic.jpg?tr=w-100,h-100,q-80,f-webp"
-  social:
-    instagram: "@dr.stefan.sport"
-    linkedin: "stefan-jovanovic-md"
 image:
   src: "fitness-maximus/posts/hidratacija-trening.jpg"
   alt: "Sportista pije vodu tokom treninga u teretani"
