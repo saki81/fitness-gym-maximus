@@ -25,7 +25,7 @@ export default async function blogPage ({searchParams}: BlogPageProps) {
     const posts =  getAllPosts();
     const category = params?.category ?? undefined; 
     const currentPage = Number.parseInt(params?.page ?? "1", 10 );
-    const postPerPage = 2;
+    const postPerPage = 6;
 
     const filteredPost = category 
           ? posts.filter((post) => post.category === category)
