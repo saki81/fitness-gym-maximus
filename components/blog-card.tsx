@@ -46,17 +46,18 @@ export function BlogCard ({posts = []}: BlogCardProps) {
     }
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+      
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
            {posts.map((post) => (
               <Card key={post.slug}>
                 <Link href={`/blog/${post.slug}`}>
-                 <div className="relative h-48 overflow-hidden">
+                 <div className="relative h-48 overflow-hidden max-w-6xl container mx-auto px-4 sm:px-0">
                     <Image 
                       src={getImageUrl(post.image.src)}
                       alt={post.image.alt}
                       width={340}
                       height={300}
-                      className="w-full h-full rounded-t-xl object-cover group-hover:scale-110 transition-transform duration-500"/>
+                      className="rounded-t-xl object-cover group-hover:scale-110 transition-transform duration-500"/>
 
                        <div className="absolute top-4 left-4">
                     <span
@@ -89,5 +90,6 @@ export function BlogCard ({posts = []}: BlogCardProps) {
               </Card>
            ))}
         </div>
+      
     )
 }

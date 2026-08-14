@@ -16,13 +16,13 @@ export function Navbar() {
   ];
 
   return (
-    <header className="backdrop-blur-md bg-background/90 fixed shadow-sm w-full z-50">
+    <header className="backdrop-blur-md bg-background/50 fixed shadow-sm w-full z-50">
       <div className="container mx-auto max-w-6xl">
         <div className="flex h-16 items-center justify-between">
 
           {/* LOGO */}
-          <Link href="/" className="mt-9 z-100">
-            <Image
+          <Link href="/" className="mt-8 md:-mx-4 z-50">
+            <Image             
               src="/logo-2.png"
               alt="logo"
               width={100}

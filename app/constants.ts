@@ -93,3 +93,68 @@ export const pricingPlans = [
     popular: false,
   },
 ]
+
+
+
+export const galleryImages = [
+  {
+    id: "gallery-001",
+    url: getImageUrl("gallery/gym-01.jpg"),
+    title: "Naša teretana",
+  },
+  {
+    id: "gallery-002",
+    url: getImageUrl("gallery/gym-02.jpg"),
+    title: "Kardio zona",
+  },
+  {
+    id: "gallery-003",
+    url: getImageUrl("gallery/gym-03.jpg"),
+    title: "Zona za trening snage",
+  },
+  {
+    id: "gallery-004",
+    url: getImageUrl("gallery/gym-04.jpg"),
+    title: "Slobodni tegovi",
+  },
+  {
+    id: "gallery-005",
+    url: getImageUrl("gallery/gym-05.jpg"),
+    title: "Bench zona",
+  },
+  {
+    id: "gallery-006",
+    url: getImageUrl("gallery/gym-06.jpg"),
+    title: "Funkcionalna zona",
+  },
+  {
+    id: "gallery-007",
+    url: getImageUrl("gallery/gym-07.jpg"),
+    title: "Fitness oprema",
+  },
+  {
+    id: "gallery-008",
+    url: getImageUrl("gallery/gym-08.jpg"),
+    title: "Prostor za trening",
+  },
+  {
+    id: "gallery-009",
+    url: getImageUrl("gallery/gym-09.jpg"),
+    title: "Profesionalne sprave",
+  },
+  {
+    id: "gallery-010",
+    url: getImageUrl("gallery/gym-10.jpg"),
+    title: "Trening zona",
+  },
+  {
+    id: "gallery-011",
+    url: getImageUrl("gallery/gym-11.jpg"),
+    title: "Oprema za teretanu",
+  },
+  {
+    id: "gallery-012",
+    url: getImageUrl("gallery/gym-12.jpg"),
+    title: "Maximus Gym",
+  },
+]

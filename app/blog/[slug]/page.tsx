@@ -57,7 +57,7 @@ export function generateStaticParams () {
                                              
         const relatedPosts = getRelatedPosts(post.category, post.slug, 2)
          return (
-            <main className="container mx-auto p-4 lg:w-5xl xl:w-6xl text-foreground">
+            <main className="container mx-auto p-4 sm:px-0 lg:w-5xl xl:w-6xl text-foreground">
             <PostHeader post={post}/>
             <div className="max-w-6xl py-4 text-lg font-medium">
                <Link href="/blog" className="inline-flex items-center text-foreground hover:text-accent">

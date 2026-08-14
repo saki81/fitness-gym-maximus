@@ -38,7 +38,7 @@ export default async function blogPage ({searchParams}: BlogPageProps) {
     return (
       <>
       <PageHeroBanner title="Blog" description="Otkrijte najnovije članke o fitness-u, ishrani i suplementaciji"/>
-        <section className="container mx-auto px-4 py-12 xl:w-6xl">
+        <section className="container mx-auto px-4 sm:px-0 py-12 xl:w-6xl">
       
           <CategoryFilter currentCategory={category}/>
           {filteredPost.length === 0 
@@ -46,6 +46,7 @@ export default async function blogPage ({searchParams}: BlogPageProps) {
                <p className="pt-16 text-lg tracking-wide text-muted-foreground">Nema tema o ovoj kategoriju</p>
             </div>
           : <BlogCard 
+            
              posts={paginatedPosts} 
              category={category}
              />

@@ -4,7 +4,7 @@ export function Features () {
 
     return (
         <section className="py-16 md-py-20 bg-background">
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-6xl mx-auto px-4 sm:px-0">
                 <div className="text-center mb-10 md:mb-16">
                     <h2 className="text-2xl md:text-4xl tracking-wide  font-medium mb-4 text-foreground">
                         ZAŠTO ODABRATI NAS

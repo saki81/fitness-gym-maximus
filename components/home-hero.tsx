@@ -8,7 +8,7 @@ export function HomeHero () {
     return (
       <section className="">
         <div className="relative bg-gradient-to-br dark:from-[#FFA52C]/10 dark:via-[#1a1a1a]/5 dark:to-[#dba258]/10 overflow-hidden">
-            <div className="max-w-6xl mx-auto px-6 sm:px-4 lg:px-10 py-10 md:py-12 lg:py-10">
+            <div className="max-w-6xl mx-auto px-4 sm:px-0 lg:px-0 py-10 md:py-12 lg:py-10">
               <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
                  
                    {/* text left side */}

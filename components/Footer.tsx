@@ -7,11 +7,11 @@ export function Footer() {
 
     return (
         <footer className="bg-background w-full">
-           <div className="container max-w-6xl mx-auto py-12 px-4">
-             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+           <div className="container max-w-6xl mx-auto py-12 px-4 sm:px-0">
+             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
 
-                <div>
-                    <Link href="/">
+               {/* <div> */}
+                    <Link href="/" className="-mx-4">
                        <Image 
                           src="/logo-2.png"
                           alt="logo"
@@ -19,7 +19,7 @@ export function Footer() {
                           height={100}/> 
                     </Link> 
 
-                </div>
+              {/*  </div> */}
                  
                 <div>
                    <h4 className="font-semibold mb-4 text-foreground text-lg">

@@ -12,7 +12,7 @@ export function LatestPosts () {
 
     return (
          <section className="py-16 md:py-18 bg-card">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-6 ">
+        <div className="max-w-6xl mx-auto px-4 sm:px-0 ">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-10 gap-4">
             <div className="text-center mx-auto tracking-wider">
               <h2 className="text-2xl md:text-4xl tracking-wide  font-medium mb-4 text-foreground">
