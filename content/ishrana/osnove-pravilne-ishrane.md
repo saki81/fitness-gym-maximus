@@ -17,51 +17,36 @@ published: true
 relatedPosts: ["kako-započeti-trening-u-teretani", "zasto-je-suplementacija-vazna"]
 ---
 
- Trening u teretani pokreće mišiće. Ishrana daje potrebne materijale i energiju za oporavak i rast. Ako ne unosite odgovarajuću hranu, ni najbolji trening neće doneti željene rezultate.
-
-U ovom tekstu podelićemo osnove ishrane na jasne i praktične korake.
+Vidi, stvar je jasna. Trening u teretani ti samo aktivira mišiće, ali hrana je ta koja daje gorivo i materijal za njihov oporavak i rast. Ako ne jedeš kako treba, džaba ti i najbolji program na svetu. Jednostavno nećeš videti rezultate koje želiš. Zato hajde da odmah pređemo na stvar i prođemo kroz osnove ishrane na najlakši mogući način. 
 
 
+## 1. Kalorije su osnova svega.
 
-## 1. Kalorijski balans je osnova svega.
+Sve ti zapravo kreće od kalorijskog balansa i tu imaš tri pravca. Ako želiš da izgradiš mišiće, moraš da budeš u plusu sa kalorijama. To znači da unosiš više nego što potrošiš tokom dana.
 
-Pre nego što se posvetite bilo kakvoj specifičnoj dijeti, morate razumeti koncept kalorijskog balansa:
-
-* **Kalorijski suficit:** znači da unosite više kalorija nego što trošite. To je potrebno za izgradnju mišićne mase.
-* **Kalorijski deficit:** znači da unosite manje kalorija nego što trošite. Ovo je potrebno ako želite da izgubite masne naslage.
-* **Održavanje:** Unosite onoliko kalorija koliko trošite. Tako održavate trenutnu težinu.
-
+Sa druge strane, ako želiš da istopiš salo, moraš da budeš u minusu. Dakle, jedeš manje nego što trošiš. Treća opcija je održavanje, gde unosiš tačno onoliko koliko potrošiš i kilaža ti stoji u mestu. Prilično prosto, zar ne?
 
 
 ## 2. Šta su makronutrijenti?
 
-Sva hrana koju unosite sastoji se od tri osnovna makronutrijenta, od kojih svaki ima svoju specifičnu ulogu u organizmu:
+Sva ta hrana koju unosiš deli se na tri glavne koje zovemo makronutrijenti, a svaki od njih ima svoju ulogu:
 
-### Proteini (Gradivni blokovi)
-Proteini su važni za obnovu i rast mišića posle treninga.
-Izvori su piletina, ćuretina, jaja, posni sir, riba, crveno meso i mahunarke.
-Preporuka: Za rekreativce i vežbače, oko 1.6 do 2.0g proteina po kilogramu telesne mase.
+### Proteini kao gradivni blokovi
+Oni su kao glavni materijal za popravku i rast mišića poslije jakog treninga u teretani. Najbolje ti je da ih unosiš kroz piletinu, ćuretinu, jaja, posni sir, ribu ili crveno meso. Neka tvoja mjera bude između 1.6 i dva grama proteina za svaki kilogram težine.
 
-### Ugljeni hidrati (Izvor energije)
-Ugljeni hidrati daju telu glavnu energiju za naporne treninge u teretani.
-Kompleksni (dobri) izvori su zobene pahuljice, riža, krompir, integralne testenine i povrće.
-Prosti izvori su voće i brzi šećeri. Najbolje ih je jesti neposredno pre ili posle treninga.
+### Ugljeni hidrati za energiju
+Oni su kao gorivo za naporno vježbanje. Najbolje je da biraš složene, spore izvore koji te dugo drže sitim, kao što su npr. zobene pahuljice, riža, krompir i integralna tjestenina. Sa druge strane, voće i brzi šećeri su ti super stvar neposredno prije ili odmah poslije treninga da ti brzo vrate snagu.
 
-### Zdrave masti (Hormonska ravnoteža)
-Masti su važne za stvaranje hormona, uključujući testosteron, i zdravlje zglobova.
-* **Izvori:** Maslinovo ulje, orašasti plodovi, avokado, žumanca i masna riba (losos).
+### Masti za zdravlje i hormone
+Masti su ti ključne za zdravlje zglobova i tvoje hormone, posebno za testosteron. Nemoj ih izbjegavati, već ih unosi kroz kvalitetne izvore kao što su npr. maslinovo ulje, bademi, lješnjaci, avokado i žumanca.
 
 
 
 ## 3. Važnost mikronutrijenata i vode
 
-Pored makronutrijenata, ne smete zaboraviti na vitamine i minerale. Oni čuvaju imunitet i pomažu metaboličkim procesima. Raznovrsno povrće i voće treba da budu svakodnevni deo vašeg tanjira.
-
-Takođe, redovno pijenje vode tokom dana pomaže da se nutrijenti bolje prenose do mišića i sprečava smanjenje performansi.
-
+Pored svega ovoga, nemoj nikako da zaboraviš na mikronutrijente. Jedi raznovrsno povrće i voće svaki dan da bi ti imunitet bio jak i da bi sve u telu radilo kako treba.Isto tako, stalno pij vodu tokom cijelog dana. Ona ti pomaže da se svi ti hranljivi sastojci brže i bolje prebace do mišića, a i spriječićeš da se brzo umoriš na treningu.
 
 
 ## Zaključak
-
-Pravilna ishrana ne znači da morate da se odreknete omiljene hrane. Ona znači da treba da napravite navike koje možete da održite. Kada uskladite ishranu sa svojim treninzima, imaćete više energije. Brže ćete se oporavljati i postići bolje rezultate.
+Na kraju krajeva, dobra ishrana ne znači da moraš potpuno da izbaciš omiljenu hranu i patiš. Poenta je da napraviš navike kojih možeš da se držiš na duže staze. Kada složiš ishranu sa svojim treninzima, vidjećeš kako imaš duplo više energije. Mnogo brže ćeš se oporavljati i rezultati će napokon stići.
 
