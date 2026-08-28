@@ -8,13 +8,13 @@ import { CTA } from "@/components/CTA-section";
 
 export default function Home() {
   return (
-       <>
+       <div>
         <HomeHero />
         <Features />
         <Category />
         <LatestPosts />
         <MembershipPricing />
         <CTA />
-       </>
+       </div>
   );
 }

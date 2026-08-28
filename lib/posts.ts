@@ -119,23 +119,36 @@ export  function getPostsByCategory(category: string): Post[] {
   return allPosts.filter((post) => post.category === category);
 }
 
-export  function getRelatedPosts(category: string, currentSlug: string, limit = 3): Post[] {
-  const categoryPath = getCategoryPath(category);
-  if (!fs.existsSync(categoryPath)) return [];
-
-  const fileNames = fs.readdirSync(categoryPath).filter((f) => f.endsWith(".md"));
+export function getRelatedPosts(
+  category: string,
+  currentSlug: string,
+  relatedPosts: string[]
+): Post[] {
+  const categories = ["ishrana", "suplementacija", "trening"];
   const posts: Post[] = [];
 
-  for (const fileName of fileNames) {
-    const slug = fileName.replace(/\.md$/, "");
-    if (slug === currentSlug) continue;
+  for (const relatedSlug of relatedPosts) {
+    if (relatedSlug === currentSlug) continue;
 
-    const post =  getPostBySlug(`${category}/${slug}`);
-    if (post?.published) posts.push(post);
+    for (const cat of categories) {
+      const categoryPath = getCategoryPath(cat);
+
+      if (!fs.existsSync(categoryPath)) continue;
+
+      const filePath = path.join(categoryPath, `${relatedSlug}.md`);
+
+      if (fs.existsSync(filePath)) {
+        const post = getPostBySlug(`${cat}/${relatedSlug}`);
+
+        if (post?.published) {
+          posts.push(post);
+        }
+
+        break;
+      }
+    }
   }
 
-  return posts
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-    .slice(0, limit);
+  return posts;
 }
 

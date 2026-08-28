@@ -16,29 +16,29 @@ export  function RelatedPosts ( {posts}: RelatedPostsProps) {
         return null;
     }
 
-    return (
-        <aside className="mt-0 p-1">
+    return (  
+      <aside className="px-1 mt-0 md:px-2 lg:pl-8"> 
           <h2 className="text-2xl font-bold mb-4">Povezani članci</h2> 
-           <div className="grid md:grid-cols-1 lg:grid-cols-1 mx-auto justify-center">
+           <div className="container mx-auto px-0 grid grid-cols-1">
              {posts.map((post) => (
-                <Card key={post.slug} className="pt-0 group hover:shadow-lg transition-shadow mb-4">
+                <Card key={post.slug} className="pt-0 group hover:shadow-lg transition-shadow mb-4 w-full">
                   <Link href={`/blog/${post.slug}`}>
-                    <div className="aspect-video rounded-t-lg">
+                    <CardHeader className=" rounded-t-lg ">
                      <Image
                        src={getImageUrl(post.image.src)}
                        alt={post.image.alt}
-                       width={320}
-                       height={60}
+                       width={370}
+                       height={110}
                        className="rounded-lg object-cover w-full h-full"/>
-                    </div>
-                    <div className="p-4 font-semibold">
+                    </CardHeader>
+                    <CardContent className="p-4 font-semibold text-sm">
                        {post.title}
-                    </div>
+                    </CardContent>
                     
                   </Link>
                 </Card>
              ))}
-           </div>
-        </aside>
+           </div>   
+       </aside>
     )
 }

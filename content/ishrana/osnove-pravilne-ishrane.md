@@ -14,7 +14,7 @@ seo:
   keywords: ["pravilna ishrana", "ishrana za trening", "makronutrijenti", "proteini u hrani", "kalorijski unos"]
   canonicalUrl: "/blog/osnove-pravilne-ishrane"
 published: true
-relatedPosts: ["kako-započeti-trening-u-teretani", "zasto-je-suplementacija-vazna"]
+relatedPosts: ["kako-zapoceti-trening-u-teretani", "zasto-je-suplementacija-vazna"]
 ---
 
 Vidi, stvar je jasna. Trening u teretani ti samo aktivira mišiće, ali hrana je ta koja daje gorivo i materijal za njihov oporavak i rast. Ako ne jedeš kako treba, džaba ti i najbolji program na svetu. Jednostavno nećeš videti rezultate koje želiš. Zato hajde da odmah pređemo na stvar i prođemo kroz osnove ishrane na najlakši mogući način. 

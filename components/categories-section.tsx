@@ -7,7 +7,7 @@ export function Category () {
 
     return (
         <section className="py-12 md:py-20 bg-background">
-            <div className="max-w-6xl mx-auto container px-4 sm:px-0 ">
+            <div className="max-w-6xl mx-auto container sm:px-4 lg:px-0 ">
                 <div className="text-center mb-12 md:mb-16">
                     <h2 className="text-2xl md:text-4xl tracking-wide  font-medium mb-4 text-foreground">
                         ISTRAŽITE KATEGORIJE
@@ -17,7 +17,7 @@ export function Category () {
                     </h3>   
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 mx-4 lg:grid-cols-3 gap-6 md:gap-8">
                      {categories.map((category, index) => {
                         const Icon = category.icon;
 
