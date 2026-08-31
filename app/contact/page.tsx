@@ -9,7 +9,7 @@ export default function ContactPage() {
     return (
         <>
           <PageHeroBanner title="Kontakt" />
-          <section className="py-16 md:py-20 px-4">
+          <section className="py-16 md:py-20 px-6 md:px-4">
             <div className="max-w-6xl container mx-auto">
                    <h2 className="text-2xl md:text-3xl text-foreground tracking-wider mb-16">KONTAKT INFORMACIJE</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">

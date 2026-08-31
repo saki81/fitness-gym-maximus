@@ -7,7 +7,7 @@ export function Footer() {
 
     return (
         <footer className="bg-background w-full">
-           <div className="container max-w-6xl mx-auto py-12 px-4 sm:px-0">
+           <div className="container max-w-6xl mx-auto py-12 px-6 md:px-4">
              <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
 
                {/* <div> */}

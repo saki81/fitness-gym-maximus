@@ -8,7 +8,7 @@ type PageHeroBannerProps = {
 export function PageHeroBanner({ title, description }: PageHeroBannerProps) {
 
     return (
-        <section className="pt-26 px-4">
+        <section className="pt-26 px-6 md:px-4">
         <div className="max-w-6xl container mx-auto rounded-[32px] bg-gradient-to-br from-[#be7b22] to-[#dba258] text-white py-6 md:py-10 px-6 md:px-16">
          <div className="max-w-4xl mx-auto text-center">
           

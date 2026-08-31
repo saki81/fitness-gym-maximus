@@ -24,7 +24,7 @@ export default function GalleryPage ({ images }: GalleryCardProps) {
        <>
          <PageHeroBanner title="Galerija"/>
 
-         <section className="max-w-6xl container mx-auto px-4 sm:px-0 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+         <section className="max-w-6xl container mx-auto px-6 md:px-4 xl:px-0 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 {galleryImages.map((image) => (
             <div
               key={image.id}

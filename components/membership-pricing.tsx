@@ -7,7 +7,7 @@ export function MembershipPricing() {
 
     return (
         <section className="py-20 bg-background">
-          <div className="max-w-6xl mx-auto px-4 sm:px-0">
+          <div className="max-w-6xl mx-auto px-4 sm:px-4 lg:px-4">
              <div className="text-center mb-16">
                 <h2 className="text-2xl md:text-4xl tracking-wide  font-medium mb-4 text-foreground">
                     ČLANARINE
@@ -18,7 +18,7 @@ export function MembershipPricing() {
              </div>
 
              {/* Pricing cards */}
-             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+             <div className=" px-2 md:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                  {pricingPlans.map((plan, index) => (
                     <div
                       key={index} 

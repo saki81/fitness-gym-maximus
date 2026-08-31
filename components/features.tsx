@@ -4,7 +4,7 @@ export function Features () {
 
     return (
         <section className="py-16 md-py-20 bg-background">
-            <div className="lg:max-w-6xl mx-auto md:px-4">
+            <div className="px-4 lg:max-w-6xl mx-auto md:px-2 xl:px-0 ">
                 <div className="text-center mb-10 md:mb-16">
                     <h2 className="text-2xl md:text-4xl tracking-wide  font-medium mb-4 text-foreground">
                         ZAŠTO ODABRATI NAS
@@ -13,7 +13,7 @@ export function Features () {
                         MJESTO GDJE POČINJU PRAVI REZULTATI
                     </h3>   
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 md:mx-4 gap-4 lg:gap-8 lg:px-0">
+                <div className="px-2 grid grid-cols-1 md:grid-cols-3 md:px-2 gap-4 lg:gap-8 xl:px-0">
                      { features.map((feature, index) => {
                          const Icon = feature.icon;
 
