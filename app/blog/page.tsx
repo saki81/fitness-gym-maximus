@@ -37,7 +37,7 @@ export default async function blogPage ({searchParams}: BlogPageProps) {
 
     return (
       <>
-      <PageHeroBanner title="Blog" description="Otkrijte najnovije članke o fitness-u, ishrani i suplementaciji"/>
+      <PageHeroBanner title="Blog" description="Otkrijte najnovije članke o fitnesu, ishrani i suplementaciji"/>
         <section className="container mx-auto px-4 sm:px-0 py-12 xl:w-6xl">
       
           <CategoryFilter currentCategory={category}/>

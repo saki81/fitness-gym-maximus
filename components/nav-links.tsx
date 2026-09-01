@@ -18,7 +18,7 @@ export default function NavLinks({ navigation }: Props) {
   const isActive = (path: string) => pathname === path;
 
   return (
-    <nav className="hidden md:flex items-center space-x-8 tracking-wide text-md">
+    <nav className="hidden md:flex items-center space-x-8 tracking-wider text-md">
       {navigation.map((item) => (
         <Link
           key={item.name}
