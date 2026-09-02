@@ -33,12 +33,11 @@ export function generateStaticParams () {
     }
 
       return {
-         title: `${post.title} - FitnessBlog`,
+         title: post.title, 
          description: post.excerpt,
          content: post.content,
          openGraph: {
          date: post.date,
-         title: post.title,
          description: post.excerpt,
          images: [post.image.src],
     },

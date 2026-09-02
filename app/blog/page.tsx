@@ -8,8 +8,8 @@ import { PageHeroBanner } from "@/components/shared/page-hero-banner";
 
 
 export const metadata: Metadata = {
-    title: "Blog - Fitness blog",
-    description: "Svi naši članci o ishrani, suplementaciji i treningu",
+    title: "Blog",
+    description: "Savjeti za treninge, ishranu i suplementaciju fitness centra Maximus u Tesliću",
 }
 
 interface BlogPageProps {

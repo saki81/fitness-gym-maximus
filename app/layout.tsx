@@ -21,24 +21,36 @@ const geistMontserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: {
-     default: "Maximus Gym | Teretana i fitness",
-     template: "%s | Maximus Gym",
-
+    default: "Teretana Teslić | Fitness Centar Maximus",
+    template: "%s | Fitness Centar Maximus",
   },
 
-  description: "Maximus Gym je teretana za trening snage, fitness i izgradnju mišića. Trenirajte u modernom prostoru i ostvarite svoje fitness ciljeve.",
+  description:
+    "Fitness Centar Maximus je teretana u Tesliću, smještena u Sportskoj dvorani Radolinka. Trenirajte uz kvalitetnu opremu za trening snage, rekreaciju i kondiciju.",
 
-  keywords: [ "teretana", "fitness", "gym", "trening", "trening snage", "fitness centar", ],
+  keywords: [
+    "teretana Teslić",
+    "gym Teslić",
+    "fitness Teslić",
+    "Fitness Centar Maximus",
+    "teretana",
+    "trening snage",
+    "rekreacija",
+    "kondicija",
+  ],
 
   openGraph: {
     type: "website",
     locale: "bs_BA",
-    title: "Fitnes centar Maksimus| Teretana i fitness", 
-    description: "Teretana za trening snage, kondicije, fitnesa i ostvarivanje vaših ciljeva.",
+    title: "Teretana Teslić | Fitness Centar Maximus",
+    description:
+      "Fitness Centar Maximus je teretana u Tesliću za trening snage, rekreaciju i poboljšanje kondicije.",
   },
 
-  robots: { index: true, follow: true, },
-
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

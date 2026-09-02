@@ -1,4 +1,11 @@
-import { PageHeroBanner } from "@/components/shared/page-hero-banner"
+import { PageHeroBanner } from "@/components/shared/page-hero-banner";
+import { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "O nama",
+  description: "Saznajte više o Fitness Centar Maximus, teretani u Tesliću smještenoj u Sportskoj dvorani Radolinka.",
+}
 
 
 export default function AboutPage () {

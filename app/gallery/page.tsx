@@ -3,8 +3,13 @@
 import { PageHeroBanner } from "@/components/shared/page-hero-banner"
 import { galleryImages } from "../constants";
 import Image from "next/image";
-import { getImageUrl } from "@/lib/imagekit";
-//import { useState } from "react";
+import { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "Galerija",
+  description: "Pogledajte galeriju Fitness Centar Maximus teretane, prostor za trening i fitness opremu u Tesliću."
+}
 
 
 interface GalleryImage {
@@ -18,7 +23,6 @@ interface GalleryCardProps {
 }
 
 export default function GalleryPage ({ images }: GalleryCardProps) {
-  //  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
     return (
        <>

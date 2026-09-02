@@ -14,13 +14,15 @@ export function HomeHero () {
                    {/* text left side */}
                  <div className="px-2 md:px-2 text-center mt-16 md:text-left order-2 lg:order-1 pt-10 xl:px-0">
                       <h1 className="text-4xl lg:text-5xl tracking-wide font-bold">
-                      PUT DO VAŠE{' '}
-                      <span className="tracking-wide text-primary block mt-2">NAJBOLJE FORME</span>
+                      FITNESS CENTAR{' '}
+                      <span className="tracking-wide text-primary block mt-2">MAXIMUS</span>
                       </h1>
 
                       <h3 className="-tracking-tighter text-lg md:text-xl lg:text-xl mt-8 leading-relaxed ">
-                          STRUČNI SAVJETI, EFIKASNI TRENINZI I PRAVILNA ISHRANA KOJA VAS VODI DO ŽELJENIH REZULTATA
+                          TERETANA U TESLIĆU ZA TRENING SNAGE, REKREACIJU I KONDICIJU
                       </h3>
+
+                      
                       {/* buttons */}
                       <div className="px-2 md:px-0 flex flex-col sm:flex-row gap-4 mt-8">
                         <Link href="/blog">

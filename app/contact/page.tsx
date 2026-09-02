@@ -1,5 +1,12 @@
 import { PageHeroBanner } from "@/components/shared/page-hero-banner"
 import { Mail, Phone, MapPin, Clock, MessageCircle } from 'lucide-react';
+import { Metadata } from "next";
+
+
+const metadata: Metadata = {
+  title: "Kontakt",
+  description: "Pronađite Fitness Centar Maximus u Sportskoj dvorani Radolinka u Tesliću i pogledajte kontakt informacije i lokaciju."
+}
 
 
 
