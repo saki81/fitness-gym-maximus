@@ -1,4 +1,4 @@
-/*"use client"*/
+
 
 import { PageHeroBanner } from "@/components/shared/page-hero-banner"
 import { galleryImages } from "../constants";
@@ -12,17 +12,12 @@ export const metadata: Metadata = {
 }
 
 
-interface GalleryImage {
-  id: string
-  url: string
-  title: string
-}
 
-interface GalleryCardProps {
+/*interface GalleryCardProps {
   images: GalleryImage
-}
+}*/
 
-export default function GalleryPage ({ images }: GalleryCardProps) {
+export default function GalleryPage (/*{ images }: GalleryCardProps*/) {
 
     return (
        <>

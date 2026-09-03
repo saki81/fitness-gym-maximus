@@ -47,7 +47,8 @@ export function HomeHero () {
                       <Image 
                         className="hidden md:block" src={getImageUrl("fitness-maximus/hero-home/hero.png?updatedAt=1776531491064&tr=q-80")} 
                         alt="home-hero" 
-                        width={460} height={600} />  
+                        width={460} height={600} 
+                        priority/>  
                      </div>                 
                   </div>  
               </div>   

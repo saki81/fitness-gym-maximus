@@ -9,18 +9,13 @@ export function Footer() {
         <footer className="bg-background w-full">
            <div className="container max-w-6xl mx-auto py-12 px-6 md:px-4">
              <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-
-               {/* <div> */}
                     <Link href="/" className="-mx-4">
                        <Image 
                           src="/logo-2.png"
                           alt="logo"
                           width={100}
                           height={100}/> 
-                    </Link> 
-
-              {/*  </div> */}
-                 
+                    </Link>                
                 <div>
                    <h4 className="font-semibold mb-4 text-foreground text-lg">
                       KATEGORIJE
@@ -84,11 +79,15 @@ export function Footer() {
               PRATITE NAS
             </h4>
             <div className="flex space-x-4">
-              <a href="https://www.instagram.com/maximus_fitness_gym/" className="hover:text-[#FFA52C] transition-colors">
+              <a href="https://www.instagram.com/maximus_fitness_gym/" 
+                 className="hover:text-[#FFA52C] transition-colors"
+                 aria-label="Instagram">
                 <Instagram size={24} />
               </a>
-              <a href="https://www.facebook.com/profile.php?id=100057251928377&locale=sr_RS" className="hover:text-[#FFA52C] transition-colors"
-                 target="blank">
+              <a href="https://www.facebook.com/profile.php?id=100057251928377&locale=sr_RS" 
+                 className="hover:text-[#FFA52C] transition-colors"
+                 target="blank"
+                 aria-label="Facebook">
                 <Facebook size={24} />
               </a>
               

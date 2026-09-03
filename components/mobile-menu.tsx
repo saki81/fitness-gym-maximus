@@ -24,8 +24,10 @@ export default function MobileMenu({ navigation }: Props) {
       return (
          <>
              <Button
+               type="button"
                variant="ghost"
                size="lg"
+               aria-label="Open menu"
                className="md:hidden p-2 cursor-pointer"
                onClick={() => setIsMenuOpen(!isMenuOpen)}
               >

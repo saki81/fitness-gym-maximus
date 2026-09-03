@@ -7,7 +7,7 @@ export function Category () {
 
     return (
         <section className="py-12 md:py-20 bg-background">
-            <div className="max-w-6xl px-2 mx-auto container xl:px-0 ">
+            <div className="max-w-6xl px-4 md:px-2 mx-auto container xl:px-0 ">
                 <div className="text-center mb-12 md:mb-16">
                     <h2 className="text-2xl md:text-4xl tracking-wide  font-medium mb-4 text-foreground">
                         ISTRAŽITE KATEGORIJE
