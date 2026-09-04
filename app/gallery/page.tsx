@@ -1,5 +1,3 @@
-
-
 import { PageHeroBanner } from "@/components/shared/page-hero-banner"
 import { galleryImages } from "../constants";
 import Image from "next/image";
@@ -12,12 +10,7 @@ export const metadata: Metadata = {
 }
 
 
-
-/*interface GalleryCardProps {
-  images: GalleryImage
-}*/
-
-export default function GalleryPage (/*{ images }: GalleryCardProps*/) {
+export default function GalleryPage () {
 
     return (
        <>

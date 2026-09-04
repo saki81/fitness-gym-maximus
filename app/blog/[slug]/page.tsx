@@ -1,4 +1,3 @@
-//import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/posts";
 import { PostHeader } from "@/components/post-header";
@@ -55,7 +54,7 @@ export function generateStaticParams () {
  
                                              
         const relatedPosts = getRelatedPosts(
-              post.category, 
+           //   post.category, 
               post.slug,
               post.relatedPosts
             )

@@ -1,4 +1,3 @@
-
 import { HomeHero } from "@/components/home-hero";
 import { Features } from "@/components/features";
 import { Category } from "@/components/categories-section";

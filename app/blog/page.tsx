@@ -1,4 +1,3 @@
-
 import { Pagination } from "@/components/pagination";
 import { CategoryFilter } from "@/components/category-filter";
 import { BlogCard } from "@/components/blog-card";
@@ -46,12 +45,11 @@ export default async function blogPage ({searchParams}: BlogPageProps) {
                <p className="pt-16 text-lg tracking-wide text-muted-foreground">Nema tema o ovoj kategoriju</p>
             </div>
           : <BlogCard 
-            
              posts={paginatedPosts} 
              category={category}
              />
           }
-          <Pagination 
+            <Pagination 
              currentPage={currentPage}
              totalPage={totalPage}
              />

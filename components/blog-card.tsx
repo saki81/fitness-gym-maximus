@@ -1,29 +1,11 @@
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Card, CardHeader } from "@/components/ui/card";
 import Image from "next/image";
 import { getImageUrl } from "@/lib/imagekit";
 import Link from "next/link";
-import { Calendar, Clock } from "lucide-react"
+import { Calendar, Clock } from "lucide-react";
+import type { Post } from "@/lib/posts";
 import { calculateReadingTime, formatDate } from "@/lib/utils";
 
-
-
-interface Post {
-  slug: string;
-  title: string;
-  excerpt: string;
-  content: string;
-  date: string;
-  category: string;
-  author: {
-    name: string;
-    avatar: string;
-  }
-  image: {
-    src: string;
-    alt: string;
-  }
-  readingTime: number;
-}
 
 interface BlogCardProps {
     posts: Post[];
@@ -32,19 +14,6 @@ interface BlogCardProps {
 
 export function BlogCard ({posts = []}: BlogCardProps) {
     
-    const categoryColor = (cat: string) => {
-        switch (cat) {
-            case "ishrana":
-              return "bg-green-100 text-green-800 hover:bg-green-200"
-            case "suplementacija":
-              return "bg-blue-100 text-blue-800 hover:bg-blue-200"
-            case "trening":
-              return "bg-orange-100 text-orange-800 hover:bg-orange-200"
-            default:
-              return "bg-gray-100 text-gray-800 hover:bg-gray-200"
-        }
-    }
-
     return (
       
         <div className="px-2 md:px-4 xl:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">

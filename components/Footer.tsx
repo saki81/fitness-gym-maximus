@@ -45,7 +45,7 @@ export function Footer() {
                    </h4>
                    <ul className="space-y-2 tracking-wider">
                      <li>
-                        <Link href="/home" className="text-lg text-foreground hover:text-accent">
+                        <Link href="/" className="text-lg text-foreground hover:text-accent">
                             Početna
                         </Link>
                      </li>

@@ -9,15 +9,7 @@ export interface Post {
   category: string;
   excerpt: string;
   tags: string[];
-  author: {
-    name: string;
-    bio: string;
-    avatar: string;
-    social: {
-      instagram?: string;
-      linkedin?: string;
-    };
-  };
+
   image: {
     src: string;
     alt: string;
@@ -41,15 +33,7 @@ interface PostFrontmatter {
   category: string;
   excerpt: string;
   tags?: string[];
-  author: {
-    name: string;
-    bio: string;
-    avatar: string;
-    social: {
-      instagram?: string;
-      linkedin?: string;
-    };
-  };
+
   image: {
     src: string;
     alt: string;
@@ -98,7 +82,7 @@ function createPost(
     category: data.category,
     excerpt: data.excerpt,
     tags: data.tags ?? [],
-    author: data.author,
+ //   author: data.author,
     image: data.image,
     seo: data.seo,
     readingTime: data.readingTime ?? 5,
@@ -180,10 +164,10 @@ export function getPostsByCategory(category: string): Post[] {
 }
 
 export function getRelatedPosts(
-  category: string,
   currentSlug: string,
   relatedPosts: string[]
 ): Post[] {
+
   const posts: Post[] = [];
 
   for (const relatedSlug of relatedPosts) {

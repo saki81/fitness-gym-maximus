@@ -4,7 +4,6 @@ type PageHeroBannerProps = {
     description?: string;
 }
 
-
 export function PageHeroBanner({ title, description }: PageHeroBannerProps) {
 
     return (
@@ -37,7 +36,6 @@ export function PageHeroBanner({ title, description }: PageHeroBannerProps) {
         </div>
       </div>
     </section>
-
     )
 }
 

@@ -43,12 +43,14 @@ export function HomeHero () {
                  </div>
                   {/* right side */}
                   <div className="lg:order-2">  
-                     <div className="display:inline">          
+                     <div className="inline">          
                       <Image 
-                        className="hidden md:block" src={getImageUrl("fitness-maximus/hero-home/hero.png?updatedAt=1776531491064&tr=q-80")} 
-                        alt="home-hero" 
-                        width={460} height={600} 
-                        priority/>  
+                        className="hidden md:block" src={getImageUrl("fitness-maximus/hero-home/hero.png?updatedAt=1776531491064&tr=q-75")} 
+                        alt="Fitness centar Maximus" 
+                        width={460} 
+                        height={600} 
+                        priority
+                        fetchPriority="high"/>  
                      </div>                 
                   </div>  
               </div>   
