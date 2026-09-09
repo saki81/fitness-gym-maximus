@@ -12,7 +12,7 @@ export function HomeHero () {
               <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
                  
                    {/* text left side */}
-                 <div className="px-2 md:px-2 text-center mt-16 md:text-left order-2 lg:order-1 pt-10 xl:px-0">
+                 <div className="[font-display:swap] px-2 md:px-2 text-center mt-16 md:text-left order-2 lg:order-1 pt-10 xl:px-0">
                       <h1 className="text-4xl lg:text-5xl tracking-wide font-bold">
                       FITNESS CENTAR{' '}
                       <span className="tracking-wide text-primary block mt-2">MAXIMUS</span>
@@ -42,16 +42,15 @@ export function HomeHero () {
                      </div>      
                  </div>
                   {/* right side */}
-                  <div className="lg:order-2">  
-                     <div className="inline">          
+                  <div className="lg:order-2 hidden md:block">     
                       <Image 
-                        className="hidden md:block" src={getImageUrl("fitness-maximus/hero-home/hero.png?updatedAt=1776531491064&tr=q-75")} 
+                        src={getImageUrl("fitness-maximus/hero-home/hero.png?updatedAt=1776531491064&tr=q-65")} 
                         alt="Fitness centar Maximus" 
                         width={460} 
-                        height={600} 
+                        height={692} 
                         priority
-                        fetchPriority="high"/>  
-                     </div>                 
+                        sizes="460px"
+                        className="object-cover" />               
                   </div>  
               </div>   
            </div>

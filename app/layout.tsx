@@ -53,6 +53,8 @@ export const metadata: Metadata = {
   },
 };
 
+
+
 export default function RootLayout({
   children,
 }: {
@@ -61,6 +63,7 @@ export default function RootLayout({
   return (
     
       <html lang="en" suppressHydrationWarning >
+     
       <body
         suppressHydrationWarning 
         className={`${geistSans.variable} ${geistMontserrat.variable} antialiased`}>
