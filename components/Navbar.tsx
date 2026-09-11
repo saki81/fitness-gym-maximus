@@ -24,9 +24,11 @@ export function Navbar() {
           <Link href="/" className="mt-8 md:-mx-4 z-50">
             <Image             
               src="/logo-2.png"
-              alt="logo"
-              width={100}
+              alt="Fitness centar Maximus"
+              width={95}
               height={100}
+              priority
+              fetchPriority="high"
             />
           </Link>
 

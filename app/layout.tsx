@@ -4,6 +4,7 @@ import { Geist, Montserrat } from "next/font/google";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { PreloadResources } from "./preload-resources";
 
 
 const geistSans = Geist({
@@ -67,6 +68,8 @@ export default function RootLayout({
       <body
         suppressHydrationWarning 
         className={`${geistSans.variable} ${geistMontserrat.variable} antialiased`}>
+
+        <PreloadResources />
          
         <ThemeProvider
              attribute="class"

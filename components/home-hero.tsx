@@ -42,14 +42,14 @@ export function HomeHero () {
                      </div>      
                  </div>
                   {/* right side */}
-                  <div className="lg:order-2 hidden md:block">     
+                  <div className="lg:order-2 hidden md:block pt-10 pl-20">     
                       <Image 
-                        src={getImageUrl("fitness-maximus/hero-home/hero.png?updatedAt=1776531491064&tr=q-65")} 
+                        src={getImageUrl("fitness-maximus/hero-home/hero.png?updatedAt=1776531491064&tr=q-75,f-auto")} 
                         alt="Fitness centar Maximus" 
-                        width={460} 
-                        height={692} 
+                        width={390} 
+                        height={554} 
                         priority
-                        sizes="460px"
+                        fetchPriority="high"
                         className="object-cover" />               
                   </div>  
               </div>   
