@@ -44,7 +44,7 @@ export function HomeHero () {
                   {/* right side */}
                   <div className="lg:order-2 hidden md:block pt-10 pl-20">     
                       <Image 
-                        src={getImageUrl("fitness-maximus/hero-home/hero.png?updatedAt=1776531491064&tr=q-75,f-auto")} 
+                        src={getImageUrl("fitness-maximus/hero-home/hero.png?updatedAt=1776531491064&tr=q-65,f-auto")} 
                         alt="Fitness centar Maximus" 
                         width={390} 
                         height={554} 

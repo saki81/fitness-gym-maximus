@@ -20,12 +20,13 @@ export function BlogCard ({posts = []}: BlogCardProps) {
            {posts.map((post) => (
               <Card key={post.slug}>
                 <Link href={`/blog/${post.slug}`}>
-                 <div className="relative h-48 overflow-hidden max-w-6xl container mx-auto px-4 sm:px-0">
+                 <div className="relative h-48 overflow-hidden max-w-6xl container mx-auto sm:px-0">
                     <Image 
                       src={getImageUrl(post.image.src)}
                       alt={post.image.alt}
-                      width={340}
+                      width={390}
                       height={300}
+                      quality={65}
                       className="rounded-t-xl object-cover group-hover:scale-110 transition-transform duration-500"/>
 
                        <div className="absolute top-4 left-4">

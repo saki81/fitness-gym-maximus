@@ -77,12 +77,13 @@ export function generateStaticParams () {
                   <Clock className="mr-2 text-accent"/> {calculateReadingTime(post.content)} min čitanja  
               </div> 
             </div>
-             <div className="lg:flex pt-1">
+             <div className="xl:flex pt-1 ">
               <div className="max-w-4xl">
                 <PostContent content={post.content}/>
               </div>
-               
+               <div className="lg:w-1/2 xl:w-full">
                <RelatedPosts posts={relatedPosts}/>
+               </div>
              </div>
         </main>
        

@@ -21,15 +21,15 @@ export  function RelatedPosts ( {posts}: RelatedPostsProps) {
           <h2 className="text-2xl font-bold mb-4">Povezani članci</h2> 
            <div className="container mx-auto px-0 grid grid-cols-1">
              {posts.map((post) => (
-                <Card key={post.slug} className="pt-0 group hover:shadow-lg transition-shadow mb-4 w-full">
+                <Card key={post.slug} className="pt-0 group hover:shadow-lg transition-shadow ">
                   <Link href={`/blog/${post.slug}`}>
-                    <CardHeader className=" rounded-t-lg ">
+                    <CardHeader className="p-0">
                      <Image
                        src={getImageUrl(post.image.src)}
                        alt={post.image.alt}
                        width={370}
-                       height={110}
-                       className="rounded-lg object-cover w-full h-full"/>
+                       height={90}
+                       className="rounded-t-lg object-cover w-full"/>
                     </CardHeader>
                     <CardContent className="p-4 font-semibold text-sm">
                        {post.title}

@@ -15,9 +15,9 @@ export function PostHeader ( {post}: PostHeaderProps ) {
          <Image 
             src={getImageUrl(post?.image.src)}
             alt={post?.image.alt}
-            width={1200}
-            height={300}
-            className="w-full h-[200] object-cover rounded-lg sm:h-[380] max-w-full"/>
+            width={1280}
+            height={320}
+            className="w-full rounded-lg object-cover object-top h-[180] sm:h-[390]"/>
          </div>  
        </div>
     )
